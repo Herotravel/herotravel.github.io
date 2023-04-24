@@ -1,0 +1,91 @@
+body {
+	background-color: #fff;
+	margin: 0;
+	font-family: Futura, Arial, sans-serif;
+}
+
+.top-bar {
+	background-color: #f9f9f9;
+	padding: 10px;
+}
+
+.top-bar-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-bar-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.top-bar-buttons {
+	display: flex;
+}
+
+.top-bar-buttons button {
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.top-bar-buttons button:hover {
+	border-bottom: 2px solid #000;
+}
+
+.body-wrapper {
+	display: flex;
+}
+
+.left-body {
+	flex: 1;
+	padding: 50px;
+	background-color: rgba(216, 191, 216, 0.7);
+}
+
+.left-body h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.left-body p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.right-body {
+	flex: 1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.right-body-image {
+	width: 100%;
+	height: 100%;
+}
+
+.languages {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+
+.languages button {
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.languages button:hover {
+	text-decoration: underline;
+}
