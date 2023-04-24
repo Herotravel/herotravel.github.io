@@ -40,6 +40,8 @@ body {
 
 .body-wrapper {
 	display: flex;
+height: 500px;
+width: 1270px;
 }
 
 .left-body {
@@ -60,9 +62,9 @@ body {
 
 .right-body {
 	flex: 1;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: justify;
 }
 
 .right-body-image {
